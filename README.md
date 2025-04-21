@@ -1,9 +1,11 @@
 
-# 🍋 Little Lemon Restaurant API
+# 🍋 Little Lemon Restaurant Webapplication with API integeration.
 ▷ This is the final assignment of the Meta Backend Developer Professional Certificate on Coursera
 
 Meta: Back-End Developer Capstone
 This is the final project for the Meta Backend Developer Professional Certificate on Coursera.
+
+![Little Lemon Home](assets/little_lemon_home.jpg)
 
 🚀 Project Overview
 
