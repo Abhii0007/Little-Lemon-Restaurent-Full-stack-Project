@@ -91,7 +91,7 @@ Test endpoints using desktop tool like 'Insomnia', or your browser
 ```
 http://127.0.0.1:8000/api/menu-items
 ```
-
+![Menu Items](assets/menu_items.jpg)
 | Method | Action                  | TOKEN AUTH | STATUS CODE |
 |--------|-------------------------|------------|-------------|
 | GET    | Retrieve all menu items | No         | 200  OK       |
@@ -119,9 +119,9 @@ http://127.0.0.1:8000/api/cart/menu-items
 
 - Check it out, update, partially modify, or bid farewell to that one special table
 ```
-http://127.0.0.1:8000/api/orders
+http://127.0.0.1:8000/api/bookings
 ```
-
+![Bookings API](assets/api_bookings.jpg)
 | Method | Action                        | TOKEN AUTH | STATUS CODE |
 |--------|-------------------------------|------------|-------------|
 | GET    | Retrieve the booking details  | Yes        | 200         |
@@ -132,6 +132,7 @@ http://127.0.0.1:8000/api/orders
 ```
 http://127.0.0.1:8000/api/users
 ```
+![User Registration](assets/user_registration.jpg)
 | Method | Action                        | TOKEN AUTH | STATUS CODE |
 |--------|-------------------------------|------------|-------------|
 | POST   | Register the user             |    No      | 200         |
@@ -140,6 +141,7 @@ http://127.0.0.1:8000/api/users
 ```
 http://127.0.0.1:8000/api/auth/token
 ```
+![Token API Key](assets/token_api_key.jpg)
 | Method | Action                        |    Json    | STATUS CODE |
 |--------|-------------------------------|------------|-------------|
 | GET    | Generate the Api Token        |    Yes     | 200         |
@@ -148,6 +150,7 @@ http://127.0.0.1:8000/api/auth/token
 ```
 http://127.0.0.1:8000/groups/manager/users
 ```
+![Add to Manager Group](assets/add_to_manager_group.jpg)
 | Method | Action                        |TOKEN AUTH/JSON | STATUS CODE |
 |--------|-------------------------------|----------------|-------------|
 | GET    | Add User to Manager group     |    Yes         | 200         |
@@ -185,6 +188,7 @@ Follow the prompts to select your desired date and time for the reservation.
 ```
 http://127.0.0.1:8000/book/
 ```
+![Book a Table](assets/book.jpg)
 Follow the instructions to enter your details and confirm the booking.
 a. Enter Name
 b. Select Reservation Date
@@ -198,3 +202,4 @@ d.Click on Reserve Now
 http://127.0.0.1:8000/reservations/
 ```
 returns All Bookings in JSon Format.
+![Reservations](assets/reservations.jpg)
