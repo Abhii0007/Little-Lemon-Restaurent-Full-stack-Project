@@ -66,10 +66,10 @@ View and manage models like MenuItem, Booking,Users, Tokens...
 ![User Permissions](assets/user_permissions.jpg)
 Manage users and tokens
 
-10. 🚀 Run the Server
+11. 🚀 Run the Server
 python manage.py runserver
 
-11. 🔗 Explore the API Endpoints
+12. 🔗 Explore the API Endpoints
 All API routes are defined in app-level urls.py files
 
 Test endpoints using desktop tool like 'Insomnia', or your browser
