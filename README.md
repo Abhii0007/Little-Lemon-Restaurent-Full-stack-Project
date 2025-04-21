@@ -88,19 +88,19 @@ Test endpoints using desktop tool like 'Insomnia', or your browser
 http://127.0.0.1:8000/api/bookings/
 ```
 
-| Method | Action                  | TOKEN AUTH | STATUS CODE |
-|--------|-------------------------|------------|-------------|
-| GET    | Retrieve all Bookings | No         | 200  OK       |
+| Method | Action                  | Endpoint | STATUS CODE |
+|--------|-------------------------|----------|-------------|
+| GET    | Retrieve all Bookings   | Yes      | 200  OK     |
 ![User Permissions](assets/bookings.jpg)
 - Check or add Menu List-
 ```
 http://127.0.0.1:8000/api/menu/
 ```
 
-| Method | Action                      | TOKEN AUTH | STATUS CODE |
-|--------|-----------------------------|------------|-------------|
-| GET    | Retrieve all Bookings       | No         | 200  OK     |
-| POST   | Add Menu using Api endpoint | No         | 200  OK     |
+| Method | Action                      | Endpoint | STATUS CODE |
+|--------|-----------------------------|----------|-------------|
+| GET    | Retrieve all Bookings       | Yes      | 200  OK     |
+| POST   | Add Menu using Api endpoint | Yes      | 200  OK     |
 ![User Permissions](assets/menu.jpg)
 - Check out all the menu items-
 ```
@@ -109,7 +109,7 @@ http://127.0.0.1:8000/api/menu-items
 ![Menu Items](assets/menu_items.jpg)
 | Method | Action                  | TOKEN AUTH | STATUS CODE |
 |--------|-------------------------|------------|-------------|
-| GET    | Retrieve all menu items | No         | 200  OK       |
+| GET    | Retrieve all menu items | No         | 200  OK     |
 
 
 - Discover, update, partially modify, or bid farewell to that special dish
