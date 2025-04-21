@@ -10,6 +10,19 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 
 
+from rest_framework import viewsets
+from .models import Booking, Menu
+from .serializers import BookingSerializer, MenuSerializer
+
+class BookingViewSet(viewsets.ModelViewSet):
+    queryset = Booking.objects.all()
+    serializer_class = BookingSerializer
+
+class MenuViewSet(viewsets.ModelViewSet):
+    queryset = Menu.objects.all()
+    serializer_class = MenuSerializer
+
+
 # Create your views here.
 def home(request):
     return render(request, "index.html")
@@ -26,7 +39,7 @@ def reservations(request):
     return render(request, "bookings.html", {"bookings": booking_json})
 
 
-def bookings(request):
+def booking(request):
     date = request.GET.get('date', datetime.today().date())
     bookings = Booking.objects.all()
     booking_json = serializers.serialize('json', bookings)

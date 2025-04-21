@@ -30,7 +30,7 @@ from django.contrib.auth import authenticate
 from rest_framework.authtoken.models import Token
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 
-class CustomLoginView(APIView):
+class obtain_auth_token(APIView):
     authentication_classes = []  # 🚫 Disable default authentication
     permission_classes = [permissions.AllowAny]  # ✅ Allow any user
 
