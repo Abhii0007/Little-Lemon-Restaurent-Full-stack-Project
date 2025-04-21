@@ -1,9 +1,8 @@
+## Coursera/ Meta Backend Developer CapStone/ Module 4/ Assignment
 
-# 🍋 Little Lemon Restaurant Webapplication with API integeration.
-▷ This is the final assignment of the Meta Backend Developer Professional Certificate on Coursera
 
-Meta: Back-End Developer Capstone
-This is the final project for the Meta Backend Developer Professional Certificate on Coursera.
+# 🍋 Little Lemon Restaurant FullWeb-Application with API integeration.
+▷ This is the Peer graded assignment of the Coursra Meta Backend Developer Capstone
 
 ![Little Lemon Home](assets/little_lemon_home.jpg)
 
