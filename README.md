@@ -101,7 +101,6 @@ http://127.0.0.1:8000/api/menu/
 |--------|-----------------------------|------------|-------------|
 | GET    | Retrieve all Bookings       | No         | 200  OK     |
 | POST   | Add Menu using Api endpoint | No         | 200  OK     |
-
 ![User Permissions](assets/menu.jpg)
 - Check out all the menu items-
 ```
