@@ -4,14 +4,10 @@
 # 🍋 Little Lemon Restaurant FullWeb-Application with API integeration.
 ▷ This is the Peer graded assignment of the Coursra Meta Backend Developer Capstone
 
-![Little Lemon Home](assets/little_lemon_home.jpg)
-
 🚀 Project Overview
 
 This project simulates the back-end infrastructure of a restaurant called Little Lemon, focusing on robust API development, database integration, user authentication, and booking systems.
-
 By building this from the ground up, I’ve applied industry best practices and sharpened my ability to craft production-ready APIs for real-world applications.
-
 Throughout this journey, I've explored core back-end principles such as:
 
 🔧 API Design & RESTful routing
@@ -85,6 +81,27 @@ Test endpoints using desktop tool like 'Insomnia', or your browser
 ## 🔄 API User Registration and Authentication
 
 ▷ The API app comes with a total of 5 endpoints, plus you'll find Djoser endpoints ready to use as well.
+
+
+- Check out all Bookings using endpoint-
+```
+http://127.0.0.1:8000/api/bookings/
+```
+
+| Method | Action                  | TOKEN AUTH | STATUS CODE |
+|--------|-------------------------|------------|-------------|
+| GET    | Retrieve all Bookings | No         | 200  OK       |
+
+- Check or add Menu List-
+```
+http://127.0.0.1:8000/api/menu/
+```
+
+| Method | Action                      | TOKEN AUTH | STATUS CODE |
+|--------|-----------------------------|------------|-------------|
+| GET    | Retrieve all Bookings       | No         | 200  OK     |
+| POST   | Add Menu using Api endpoint | No         | 200  OK     |
+
 
 - Check out all the menu items-
 ```
