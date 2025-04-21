@@ -1,0 +1,251 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.explore_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7ff32;
+    padding: 5px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #319b2c;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: auto;
+}
+.explore_menu:hover{
+    background-color: #c2fa8e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.banner-content{
+    color: white;
+    background: rgba(80, 80, 80, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #78db57;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.testimonials {
+    padding: 40px 20px;
+    background: #ffffff;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banner.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+
+.testimonials h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial-container article {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 300px;
+}
+
+.about, .contact {
+    padding: 40px 20px;
+    background: #f0ffe6;
+    color: #333;
+}
+
+.about h2, .contact h2 {
+    color: #4c8c2b;
+    margin-bottom: 10px;
+}
+
+.about p, .contact p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.menu {
+    padding: 40px 20px;
+    background: #e6ffe6;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #388e3c;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.menu-t {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menu-t th, .menu-t td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-t th {
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.menu-t tr:hover {
+    background-color: #f1fff1;
+}
+
+.menu p {
+    font-size: 16px;
+    color: #4caf50;
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #aba2a2;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #fdffc3;
+    padding: 5px;
+    text-align: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav {
+    background: #7abd6b;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #368e22;
+    background: #b2ff3f;
+}
+
+.banner {
+    background: url('banner.png') no-repeat center center/cover;
+    color: rgb(29, 85, 43);
+    padding: 100px 100px;
+    text-align: center;
+    display: sticky
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #e5fbe1, #ccf3c1);
+    border-top: 4px solid #57a843;
+    border-bottom: 4px solid #57a843;
+}
+
+.features article {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    flex: 1;
+}
+
+.features article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.features img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.features h2 {
+    color: #3e8e41;
+    margin-bottom: 10px;
+}
+
+.features p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #619944;
+    color: rgb(0, 0, 0);
+    
+}
+
+.footer-left img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.footer-right {
+    font-size: 20px;
+}

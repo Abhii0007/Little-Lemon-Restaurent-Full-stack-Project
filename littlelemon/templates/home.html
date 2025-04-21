@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taste of Little Lemon</title>
+  {% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+
+<body>
+  <header>
+    
+
+    <img src="{% static 'css/Asset 16@4x.png' %}" alt="Fictional Client Logo" class="logo">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact " >Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="banner">
+      <div class="banner-content">
+        <h1>Welcome to Little Lemon Restaurant</h1>
+        <p>Discover a world of flavors at our restaurant, where we've been serving up a storm since 2010. From the heart of Oklahoma City, Japan, we've grown into a global culinary sensation, offering a diverse menu that spans Indian, Chinese, Tandoori, Mexican, Caribbean, and more.</p>
+      
+        <button class="explore_menu" onclick="location.href='{% url 'home' %}'">Book The Table Now</button>
+
+        
+      
+      </div>
+    </section>
+
+    <section class="features" id ="services">
+      <article>
+        <img src="{% static 'css/noodles.jpg' %}" alt="Feature 1">
+        <h2>Quality Service</h2>
+        <p>We provide top-notch services with customer satisfaction at our core.</p>
+      </article>
+      <article>
+        <img src="{% static 'css/customer satisfaction.png'%}" alt="Feature 2">
+        <h2>Expert Team</h2>
+        <p>Our professionals bring years of experience and expertise.</p>
+      </article>
+      <article>
+        <img src="{% static 'css/solution.png' %}" alt="Feature 3">
+        <h2>Innovative Solutions</h2>
+        <p>We deliver cutting-edge solutions tailored to your needs.</p>
+      </article>
+    </section>
+
+
+
+    <div class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <table class="menu-t">
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Chicken Munchurian</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Veg. Munchurian</td>
+                <td>$6.35</td>
+            </tr>
+            <tr>
+                <td>Chinese Noodle</td>
+                <td>$12.50</td>
+            </tr>
+            <tr>
+                <td>Pasta</td>
+                <td>$8.00</td>
+            </tr>
+            <tr>
+                <td>
+                    Mutton Salad
+                </td>
+                <td>$8.33</td>
+            </tr>
+            <tr>
+                <td>Lemon Juice</td>
+                <td>$3.50</td>
+            </tr>
+            <tr>
+                <td>Chicken Soup</td>
+                <td>$8.99</td>
+            </tr>
+            <tr>
+                <td>French Fries</td>
+                <td>$7.50</td>
+            </tr>
+            <tr>
+                <td>
+                    Sushi
+                </td>
+                <td>$12.30</td>
+            </tr>
+            <tr>
+                <td>Ice Creams</td>
+                <td>$5.00</td>
+            </tr>
+        </table>
+        <p>Visit Out Restaurant for the full menu !</p>
+    </div>
+
+
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+          <article>
+            <p>"Little Lemon blends global flavors into unforgettable dishes. The service, ambiance, and taste make every visit memorable. It's not just a meal — it's a whole experience!"</p>
+            <strong>- Ayesha R.</strong>
+          </article>
+          <article>
+            <p>"Dining at Little Lemon is like tasting joy on a plate. Every dish is crafted with care, and the warm, cozy environment makes it feel like home."</p>
+            <strong>- Carlos M.</strong>
+          </article>
+          <article>
+            <p>"From mouth-watering appetizers to heavenly desserts, Little Lemon never disappoints. Friendly staff and artistic presentation add to the charm. An absolute favorite for food lovers!"</p>
+            <strong>- Priya K.</strong>
+          </article>
+        </div>
+      </section>
+      
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>At Little Lemon, we believe that food brings people together. With a commitment to quality ingredients and passionate chefs, we’ve created a space where community, creativity, and flavor come together. Whether it’s a casual dinner or a special celebration, we make every moment memorable.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>Address: 123 Lemon Street, Lake City, India</p>
+      <p>Email: info@littlelemon.com</p>
+      <p>Phone: +81 90 1234 5678</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-left">
+      
+      <img src="{% static 'css/Asset 9@4x.png' %}" alt="Small Logo">
+    </div>
+    <div class="footer-right">
+      <p>&copy; Little Lemon, All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
