@@ -68,7 +68,7 @@ Ensure you have mysqlclient installed and MySQL running.
 Go to:http://127.0.0.1:8000/admin
 Login using your superuser credentials.
 View and manage models like MenuItem, Booking,Users, Tokens...
-
+![User Permissions](assets/user_permissions.jpg)
 Manage users and tokens
 
 10. 🚀 Run the Server
