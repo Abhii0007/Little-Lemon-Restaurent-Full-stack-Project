@@ -91,7 +91,7 @@ http://127.0.0.1:8000/api/bookings/
 | Method | Action                  | TOKEN AUTH | STATUS CODE |
 |--------|-------------------------|------------|-------------|
 | GET    | Retrieve all Bookings | No         | 200  OK       |
-
+![User Permissions](assets/bookings.jpg)
 - Check or add Menu List-
 ```
 http://127.0.0.1:8000/api/menu/
@@ -102,7 +102,7 @@ http://127.0.0.1:8000/api/menu/
 | GET    | Retrieve all Bookings       | No         | 200  OK     |
 | POST   | Add Menu using Api endpoint | No         | 200  OK     |
 
-
+![User Permissions](assets/menu.jpg)
 - Check out all the menu items-
 ```
 http://127.0.0.1:8000/api/menu-items
