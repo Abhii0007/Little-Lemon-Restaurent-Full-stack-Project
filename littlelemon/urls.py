@@ -19,6 +19,5 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('restaurant.urls')),
-    path('', include('LittleLemonAPI.urls')),
     path('home/', views.index, name='index'),
 ]
