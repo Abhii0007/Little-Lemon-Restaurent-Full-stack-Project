@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('restaurant.urls')),
     path('home/', views.index, name='index'),
+    path('', include('LittleLemonAPI.urls')),
 ]
