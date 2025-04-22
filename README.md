@@ -4,6 +4,8 @@
 # 🍋 Little Lemon Restaurant FullWeb-Application with API integeration.
 ▷ This is the Peer graded assignment of the Coursra Meta Backend Developer Capstone
 
+![little lemon home](assets/little_lemon_home.jpg)
+
 🚀 Project Overview
 
 This project simulates the back-end infrastructure of a restaurant called Little Lemon, focusing on robust API development, database integration, user authentication, and booking systems.
